@@ -14,7 +14,8 @@
 int main()
 {
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-    PWM_Start();
+    PWM_Init();
+    PWM_Enable();
 
     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
     for(;;)
